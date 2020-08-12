@@ -1,0 +1,37 @@
+VARIABLE: para realizar operaciones con javascript tenemos que definir un valor a cada objeto que vamos a utilizar. 
+Para hacer esto vamos a utilizar la etiqueta 'var'. Por ejemplo: 
+var nombredeperro = 'China';
+
+Existen 3 tipos de datos fundamentales en javascript:
+Strings, numbers y booleans.
+
+STRINGS: estos son palabras o bloques de textos. Siempre
+van entre comillas '' .
+
+NUMBERS: como su nombre lo indica son números. Estos 
+NO van entre comillas ''. Podemos usar positivos y negativos.
+
+BOOLEANS: este tipo de datos puede ser de 2 tipos: 
+verdadero o falso. Vamos a utilizarlo mucho. Su función 
+es activar o desactivar.
+
+FUNCIONES: son objetos llamados invocables. Van a realizar
+acciones que describamos a través del código en ella.
+Dentro de ese código, vamos a escribir lo que se conoce como argumentos.
+Estos le indicaran al programa lo que tiene que hacer cuando se ejecute.
+Por ejemplo, podemos programar una suma. Para que nos devuelva un resultado tenemos que pedirselo.
+Eso lo logramos a través de una declaración conocida como  "retrurn".
+
+CONTROL DE FLUJO: más arriba  hablamos de true o false.
+Para esto utilizamos "control flow", A través de una declaración
+conocida como if ("si cumple la condición´(...)" vemos si ejecuta el código o no). Por ejemplo:
+function aptopalmanejo(edad) {
+	if (edad>18) {
+		return true;
+	}
+
+	return false
+}
+
+Este código quiere decir que si es mayor de edad es apto y va a devolver el valor true.
+Sino, va a devolver false.
